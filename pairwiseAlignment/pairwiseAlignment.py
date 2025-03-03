@@ -77,7 +77,7 @@ def pairwiseAlign(seqX, seqY, match, mismatch, gap):
 
     print(f"The optimal local alignment score is {globalMax}.")
 
-    print(f"The optimal score of {globalMax} occurs in {(matrixDf == 14).sum().sum()} times.")
+    print(f"The optimal score of {globalMax} occurs in {(matrixDf == 14).sum().sum()} alignments.")
 
 # Applying the function to two test sequences
 seqA = "CTTAAGTCAAT"
