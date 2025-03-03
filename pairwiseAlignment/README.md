@@ -5,4 +5,4 @@ The algorithm follows 3 main step:
 2. Main iteration to fill the matrix using match, mismatch and gap scores
 3. Termination and traceback to find optimal alignment score
 
-<img width="250" alt="Screenshot 2025-03-03 at 11 56 00 AM" src="https://github.com/user-attachments/assets/ec92d154-5ce7-4f4e-9c5a-1e04791060aa" />
+<img width="351" alt="Screenshot 2025-03-03 at 11 56 00 AM" src="https://github.com/user-attachments/assets/5ef65360-8d7f-411e-b525-3b4d5650d474" />
