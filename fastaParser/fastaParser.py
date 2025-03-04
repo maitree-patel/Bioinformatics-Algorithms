@@ -33,7 +33,7 @@ def fastaParser(fastaFile):
     fastaDf = pd.DataFrame(list(fastaDict.items()), columns=['header', 'sequence'])
     return fastaDf
     
-fastaFile =  "/Users/maitreepatel/Desktop/seq2.fa"
+fastaFile =  "seq2.fa"
 #testing to see if we get a SequenceRecord of the first header and sequence from the fasta file 
 fastaParsed = fastaParser(fastaFile)
 print(fastaParsed)
